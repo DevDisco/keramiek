@@ -1,0 +1,28 @@
+section {
+  padding: 60px 0;
+}
+
+#home {
+  padding: 0;
+  margin-top: 56px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 40%;
+  transform: translate(0%, -40%);
+}
+
+.banner-text {
+  height: 25vw;
+  background-color: rgb(204, 194, 193);
+  position: relative;
+}
+
+.banner-image {
+  background-image: url("../assets/half.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 25vw;
+}

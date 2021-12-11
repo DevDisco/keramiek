@@ -1,0 +1,16 @@
+.card-bgimage {
+  margin: 1rem;
+  width: 16rem;
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-caption {
+  text-align: justify;
+}
+
+.card {
+  width: 18rem;
+  margin: auto;
+}
