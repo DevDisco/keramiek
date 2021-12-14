@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { getText } from "./redux/ducks/textSlice";
+import Item from "./pages/Item";
+import { Route, Routes } from "react-router";
+import Home from "./pages/Home";
+import Category from "./pages/Category";
 import "./App.css";
-import Banner from "./components/Banner";
-import CardSection from "./components/CardSection";
-import Navbar from "./components/Navbar";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getText());
+  }, [dispatch]);
+
   return (
-    <>
-      <Navbar />;
-      <Banner />
-      <CardSection />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="item/:id" element={<Item />} />
+      <Route path="cat/:id" element={<Category />} />
+    </Routes>
   );
 }
 

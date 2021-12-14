@@ -6,11 +6,17 @@
   background-position: center;
 }
 
-.card-caption {
-  text-align: justify;
-}
-
 .card {
   width: 18rem;
   margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-price {
+  position: relative;
+  left: 15px;
+  top: 5px;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px #000000;
 }

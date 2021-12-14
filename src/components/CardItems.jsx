@@ -1,20 +1,23 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import CardItem from "./CardItem";
 
-export default function CardItems(category) {
+export default function CardItems(props) {
   //pass the props downwards
 
+  const showcase = useSelector((state) => state.showcase);
+  const { category } = props;
+  const items = showcase[category];
+
+  if (!items) {
+    return "";
+  }
+
   return (
-    <div className="row g-4">
-      <div className="col-md-6 col-lg-4 mb-3">
-        <CardItem bgimage="vogel.jpg" />
-      </div>
-      <div className="col-lg-4 col-md-6 mb-3">
-        <CardItem bgimage="keverts.jpg" />
-      </div>
-      <div className="col-lg-4 d-md-none d-lg-block mb-3">
-        <CardItem bgimage="elephant.jpg" />
-      </div>
+    <div className="d-flex flex-wrap">
+      {items.map((item) => (
+        <CardItem key={item.id} item={item} />
+      ))}
     </div>
   );
 }
