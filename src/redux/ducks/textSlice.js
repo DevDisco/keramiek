@@ -6,6 +6,7 @@ const textSlice = createSlice({
   reducers: {
     getText() {},
     setText(state, action) {
+      //the returned json is a nested object, convert to array
       const textData = action.payload;
       return { ...state, ...textData };
     },

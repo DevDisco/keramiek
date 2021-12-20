@@ -1,6 +1,6 @@
 import React from "react";
 
-const path = "/images/uploads/";
+const path = process.env.REACT_APP_IMAGE_DIR;
 
 export default function ItemCarouselImage(props) {
   const { image, titel, active } = props;

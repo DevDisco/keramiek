@@ -10,8 +10,8 @@ import Navbar from "./components/Navbar";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Navbar />
-      <Router>
+      <Router basename={process.env.REACT_APP_ROOT_DIR}>
+        <Navbar />
         <App />
       </Router>
     </Provider>

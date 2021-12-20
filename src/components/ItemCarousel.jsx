@@ -12,7 +12,7 @@ export default function ItemCarousel(props) {
   return (
     <div
       id={target}
-      className="carousel slide bg-primary"
+      className="carousel carousel-dark slide"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">

@@ -1,5 +1,5 @@
 .card-bgimage {
-  margin: 1rem;
+  margin: 0rem;
   width: 16rem;
   height: 16rem;
   background-size: cover;
@@ -11,6 +11,7 @@
   margin: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .card-price {

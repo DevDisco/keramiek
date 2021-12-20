@@ -4,7 +4,7 @@ import { useParams } from "react-router";
 import ItemSection from "../components/ItemSection";
 import { getItem } from "../redux/ducks/itemSlice";
 
-function Item() {
+export default function Item() {
   const { id } = useParams();
   const dispatch = useDispatch();
 
@@ -26,5 +26,3 @@ function Item() {
 
   return <ItemSection item={item} />;
 }
-
-export default Item;

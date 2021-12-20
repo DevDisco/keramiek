@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import CardItem from "./CardItem";
+import HomeCardsItem from "./HomeCardsItem";
 
-export default function CardItems(props) {
+export default function HomeCardsItems(props) {
   //pass the props downwards
 
   const showcase = useSelector((state) => state.showcase);
@@ -13,10 +13,12 @@ export default function CardItems(props) {
     return "";
   }
 
+  //console.log("items", items);
+
   return (
     <div className="d-flex flex-wrap">
       {items.map((item) => (
-        <CardItem key={item.id} item={item} />
+        <HomeCardsItem key={item.id} item={item} />
       ))}
     </div>
   );

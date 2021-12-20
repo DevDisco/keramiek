@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -6,12 +7,12 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-md navbar-light bg-altlight fixed-top">
         <div className="container-xxl">
-          <a href="/" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             <span className="text-secondary">
               <i className="bi bi-bug"></i>
-              Marsha Metselaar
+              &nbsp;Marsha Metselaar
             </span>
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -31,14 +32,14 @@ export default function Navbar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="/" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="/"
+                  href="a"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -51,45 +52,50 @@ export default function Navbar() {
                   aria-labelledby="navbarDropdown"
                 >
                   <li>
-                    <a className="dropdown-item" href="#nieuw">
+                    <Link to="c/nieuw" className="dropdown-item">
                       Nieuw!
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#autonoom">
-                      Beelden
-                    </a>
+                    <Link to="c/autonoom" className="dropdown-item">
+                      Autonoom werk
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#toegepast">
+                    <Link to="c/toegepast" className="dropdown-item">
                       Toegepast werk
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#archief">
+                    <Link to="c/archief" className="dropdown-item">
                       Archief
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#cursus" className="nav-link">
+                <a href="#cursus" className="nav-link disabled">
+                  Cursussen
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#cursus" className="nav-link disabled">
                   Vragen
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#ervaringen" className="nav-link">
+                <a href="#ervaringen" className="nav-link disabled">
                   Reviews
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-link">
+                <a href="#contact" className="nav-link disabled">
                   Contact
                 </a>
               </li>

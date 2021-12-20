@@ -3,7 +3,7 @@ let path = "";
 
 export default function ItemImage(props) {
   const { image, alt } = props;
-  path = "/images/uploads/" + image;
+  path = "./images/uploads/" + image;
   // console.log("item", item);
   return (
     <div className="item-image">

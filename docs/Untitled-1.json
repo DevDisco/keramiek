@@ -1,0 +1,162 @@
+{
+  "banner_1": { "tekst": "Marsha Metselaartje", "id": "1" },
+  "banner_2": { "tekst": "Beeldend kunstenaar", "id": "2" },
+  "banner_3": { "tekst": "Keramiek en andere materialen", "id": "3" },
+  "home_nieuw_header": { "tekst": "Nieuw werk", "id": "4" },
+  "home_nieuw_text": {
+    "tekst": "Zo vers uit de oven dat het nog dagenlang doorpingt.",
+    "id": "5"
+  },
+  "home_autonoom_header": { "tekst": "Dingen zonder doel", "id": "6" },
+  "home_autonoom_text": { "tekst": "Gewoon, omdat het kan.", "id": "7" },
+  "home_toegepast_header": { "tekst": "Dingen met een doel", "id": "8" },
+  "home_toegepast_text": {
+    "tekst": "Kandelaren, lampjes en ander gebruiksgoed.",
+    "id": "9"
+  },
+  "nieuw_cat_header": {
+    "tekst": "Overzicht van dingen die ik net gemaakt heb....",
+    "id": "10"
+  },
+  "nieuw": [
+    {
+      "id": "5",
+      "categorie": "nieuw",
+      "titel": "Kevers",
+      "beschrijving": "Alle insecten hebben een driedelig lichaam (kop, borststuk en achterlijf) dat omgeven is door een hard, chitineus exoskelet. Het exoskelet wordt tijdens de groei een aantal keer afgeworpen en vernieuwd: vervelling. Het borststuk draagt drie paar flexibele poten en bij veel soorten ook de vleugels. Het achterlijf bevat de spijsverterings-, uitscheidings- en voortplantingsorganen van het insect, evenals een groot deel van het ademhalingssysteem, dat uit trachee\u00ebn is opgebouwd. ",
+      "materiaal": "Aardewerk, glazuur",
+      "bouwjaar": "2021",
+      "prijs": "0",
+      "hoogte": "17",
+      "breedte": "12",
+      "diepte": "3",
+      "foto_1": "keverts.jpg",
+      "foto_2": "",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "0",
+      "datum": "2021-12-11 15:04:39"
+    },
+    {
+      "id": "2",
+      "categorie": "nieuw",
+      "titel": "Spechterik",
+      "beschrijving": "Een beetje specht is de hele dag door is aan het tikken, hameren en drummen. Er is altijd wel een reden. Een roffeltje hier om een territorium af te bakenen, een tikkie daar om te laten weten dat je wilt paren, een harde hamerslag voor de aanmaak van een nestholte of gewoon lekker trommelen om voedsel te zoeken. Rupsen, kevers en andere hapklare insecten tussen de schors gaan op de loop als hun ondergrond begint te trillen. ",
+      "materiaal": "Klei, glazuur",
+      "bouwjaar": "2021",
+      "prijs": "145",
+      "hoogte": "21",
+      "breedte": "30",
+      "diepte": "17",
+      "foto_1": "vogel.jpg",
+      "foto_2": "",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "0",
+      "datum": "2021-12-11 14:56:02"
+    },
+    {
+      "id": "6",
+      "categorie": "nieuw",
+      "titel": "Flamingo's",
+      "beschrijving": "De indeling van flamingo's was voor lange tijd onduidelijk. Zij zijn meestal ingedeeld bij de ooievaarachtigen, tegenwoordig ook als eigen orde. Aan de hand van DNA-sequencing kon worden vastgesteld dat de flamingo's vrij nauw verwant zijn met de futen en wat verder met de duiven. Een nauwe verwantschap met de ooievaars werd niet geconstateerd. ",
+      "materiaal": "Metaaldraad, vulling, textiel",
+      "bouwjaar": "2019",
+      "prijs": "0",
+      "hoogte": "50",
+      "breedte": "35",
+      "diepte": "35",
+      "foto_1": "12.jpg",
+      "foto_2": "11.jpg",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "0",
+      "datum": "2021-12-11 15:06:37"
+    }
+  ],
+  "autonoom": [
+    {
+      "id": "7",
+      "categorie": "autonoom",
+      "titel": "Overvloed",
+      "beschrijving": "Want begeerte naar aardse dingen gaat niet alleen vergezeld van allerlei andere zonden. Wie armoede niet geduldig draagt, laat bij overvloed ook vaak een tegenovergestelde ziekte zien. Ik bedoel: als je je schaamt voor armoedige kleding, zul je trots zijn op kostbare kleren.",
+      "materiaal": "Textiel en keramiek",
+      "bouwjaar": "2018",
+      "prijs": "0",
+      "hoogte": "12",
+      "breedte": "50",
+      "diepte": "50",
+      "foto_1": "10.jpg",
+      "foto_2": "",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "0",
+      "datum": "2021-12-11 15:09:06"
+    },
+    {
+      "id": "8",
+      "categorie": "autonoom",
+      "titel": "Boom",
+      "beschrijving": "Een boom is een overblijvende plant met een verhoute stam en een kroon (kruin). Er is geen eensgezindheid over de omschrijving van een boom. De meeste definities noemen het bezit van \u00e9\u00e9n stam en een hoogte van meer dan vier meter. De vegetatielaag waarin bomen domineren, gewoonlijk boven de acht meter in een vegetatie is de boomlaag, daaronder heet het struiklaag.\r\n\r\nBomen kunnen afhankelijk van de soort tot meer dan honderd meter hoog worden en groeien op zeer verschillende ondergronden. De mangrovesoorten groeien zelfs in brak water.",
+      "materiaal": "Keramiek, wol, elektra.",
+      "bouwjaar": "2017",
+      "prijs": "1500",
+      "hoogte": "50",
+      "breedte": "50",
+      "diepte": "50",
+      "foto_1": "8.jpg",
+      "foto_2": "8b.jpg",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "1",
+      "datum": "2021-12-11 15:13:07"
+    }
+  ],
+  "toegepast": [
+    {
+      "id": "3",
+      "categorie": "toegepast",
+      "titel": "Olifant",
+      "beschrijving": "Olifanten zorgen met hun grote lijven en enorme eetlust voor het openhouden van het bos en verspreiding van de zaden die ze eten, en weer uitpoepen. Zo houden ze hun eigen bos in stand. Er dringt meer licht door tot de planten op de bosbodem en zaden reizen mee in de maag van de olifant naar nieuwe plekken. Veel plant- en diersoorten profiteren daarvan. Olifanten zijn dus onmisbaar voor de biodiversiteit in hun leefgebieden.",
+      "materiaal": "Aardewerk met blauwgrijs mat glazuur",
+      "bouwjaar": "2019",
+      "prijs": "175",
+      "hoogte": "32",
+      "breedte": "24",
+      "diepte": "28",
+      "foto_1": "elephant.jpg",
+      "foto_2": "elephant2.jpg",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "0",
+      "datum": "2021-12-11 15:00:07"
+    }
+  ],
+  "archief": [
+    {
+      "id": "9",
+      "categorie": "archief",
+      "titel": "Stolpelientje",
+      "beschrijving": " dsdf dsfdsf dsfsdfsd\r\nf\r\ndsf",
+      "materiaal": "Metaaldraad, vulling, textiel",
+      "bouwjaar": "2021",
+      "prijs": "54",
+      "hoogte": "0",
+      "breedte": "0",
+      "diepte": "1",
+      "foto_1": "Geranium_sylvaticum_Album_7874.jpg",
+      "foto_2": "Geranium_cinereum_Ballerina.jpg",
+      "foto_3": "",
+      "foto_4": "",
+      "in_overzicht": "1",
+      "in_winkel": "0",
+      "datum": "2021-12-17 22:19:40"
+    }
+  ]
+}
