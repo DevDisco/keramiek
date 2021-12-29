@@ -21,13 +21,11 @@ export default function HomeCardsItem(props) {
         <div
           className="card-bgimage"
           style={{ backgroundImage: "url(" + imageUrl + ")" }}
+          title={item.titel}
         >
           <div className="card-price text-light">
             {item.prijs > 0 ? "  €" + item.prijs : ""}
           </div>
-        </div>
-        <div className="card-body text-center pb-0">
-          <p className="card-caption h4">{item.titel}</p>
         </div>
       </Link>
     </div>

@@ -7,7 +7,8 @@
 }
 
 .card {
-  width: 18rem;
+  min-width: 18rem;
+  max-width: 224rem;
   margin: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;

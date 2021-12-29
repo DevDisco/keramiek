@@ -7,7 +7,7 @@ export default function AgendaItemTable(props) {
       <tbody>
         <tr>
           <td className="text-muted pe-3">Adres</td>
-          <td className="spacer">{item.adres}</td>
+          <td>{item.adres}</td>
         </tr>
         <tr>
           <td className="text-muted pe-3">Openingstijden</td>

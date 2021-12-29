@@ -10,7 +10,7 @@ export default function ItemSection(props) {
     <section id="{props.category}" className="bg-altlight mt-3">
       <div className="container">
         <h1>{item.titel}</h1>
-        <p>{item.beschrijving}</p>
+        <p className="lnbrk">{item.beschrijving}</p>
         <ItemTable item={item} />
         <p></p>
         <ItemCarousel item={item} />

@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { editItem } from "../assets/js/helpers";
+import { editAgenda } from "../assets/js/helpers";
 
 export default function HomeAgendaItem(props) {
   const clientData = useSelector((state) => state.client);
@@ -15,7 +15,7 @@ export default function HomeAgendaItem(props) {
   const imageUrl = process.env.REACT_APP_IMAGE_DIR + item.foto_1;
 
   return (
-    <div className="card" onClick={(e) => editItem(item.id, ip, e)}>
+    <div className="card" onClick={(e) => editAgenda(item.id, ip, e)}>
       <Link to={"/a/" + item.id}>
         <div
           className="card-bgimage"

@@ -5,7 +5,7 @@ export default function ItemCarouselButton(props) {
 
   return (
     <>
-      {image !== "" && (
+      {image !== "" && image !== undefined && (
         <button
           type="button"
           data-bs-target={"#" + target}

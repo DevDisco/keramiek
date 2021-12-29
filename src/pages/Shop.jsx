@@ -3,15 +3,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router";
 import CategoryHeader from "../components/CategoryHeader";
 import HomeCardsItem from "../components/HomeCardsItem";
-import { getCategory } from "../redux/ducks/categorySlice";
+import { getShop } from "../redux/ducks/shopSlice";
 
-export default function Category() {
+export default function Shop() {
   const { c: category } = useParams();
   const dispatch = useDispatch();
-  const items = useSelector((state) => state.category);
+  const items = useSelector((state) => state.shop);
 
   useEffect(() => {
-    dispatch(getCategory({ category: category }));
+    dispatch(getShop({ category: category }));
   }, [dispatch, category]);
 
   if (!items) {
@@ -22,7 +22,7 @@ export default function Category() {
   return (
     <section id="top" className="bg-altlight mt-3">
       <div className="container-lg  py-3">
-        <CategoryHeader category={category} page="cat" />
+        <CategoryHeader category={category} page="shop" />
         <div className="d-flex flex-wrap">
           {Object.keys(items).map((key) => (
             <HomeCardsItem key={items[key].id} item={items[key]} />

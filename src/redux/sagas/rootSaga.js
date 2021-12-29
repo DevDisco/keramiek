@@ -11,6 +11,8 @@ import { handleGetClient } from "./handlers/client";
 import { getClient } from "../ducks/clientSlice";
 import { handleGetAgenda } from "./handlers/agenda";
 import { getAgenda } from "../ducks/agendaSlice";
+import { handleGetShop } from "./handlers/shop";
+import { getShop } from "../ducks/shopSlice";
 
 export function* watcherSaga() {
   yield takeLatest(getShowcase.type, handleGetShowcase);
@@ -19,4 +21,5 @@ export function* watcherSaga() {
   yield takeLatest(getCategory.type, handleGetCategory);
   yield takeLatest(getClient.type, handleGetClient);
   yield takeLatest(getAgenda.type, handleGetAgenda);
+  yield takeLatest(getShop.type, handleGetShop);
 }

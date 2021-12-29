@@ -1,14 +1,15 @@
 export function editTag(tagData, ip) {
+  const id = tagData["id"] ?? "";
+  const tag = tagData["tag"] ?? tagData;
+
   if (ip === "88.159.252.251") {
     if (
       window.confirm(
-        "De tag van deze tekst is " +
-          tagData["tag"] +
-          ". Klik op OK om deze tag in de editor te openen."
+        "Dit is tekstanker " + tag + ".\nKlik op OK om de editor te openen."
       )
     ) {
       window.open(
-        "https://dcslob.nl/m_form/index.php?t=tekst&id=" + tagData["id"],
+        "https://dcslob.nl/m_form/index.php?t=tekst&id=" + id,
         "_blank"
       );
     }

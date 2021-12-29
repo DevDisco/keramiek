@@ -9,6 +9,7 @@ import textReducer from "./ducks/textSlice";
 import categoryReducer from "./ducks/categorySlice";
 import clientReducer from "./ducks/clientSlice";
 import agendaReducer from "./ducks/agendaSlice";
+import shopReducer from "./ducks/shopSlice";
 import createSagaMiddleware from "redux-saga";
 import { watcherSaga } from "./sagas/rootSaga";
 
@@ -20,6 +21,7 @@ const reducers = combineReducers({
   category: categoryReducer,
   client: clientReducer,
   agenda: agendaReducer,
+  shop: shopReducer,
 });
 
 const sagaMiddleware = createSagaMiddleware();

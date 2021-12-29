@@ -31,16 +31,38 @@ export default function Navbar() {
             id="main-nav"
           >
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link to="/" className="nav-link">
-                  Home
-                </Link>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="a"
+                  id="navbarDropdown1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Over Marsha
+                </a>
+                <ul
+                  className="dropdown-menu dropdown-menu-light"
+                  aria-labelledby="navbarDropdown1"
+                >
+                  <li>
+                    <Link to="" className="dropdown-item">
+                      Bio
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="" className="dropdown-item">
+                      CV
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="a"
-                  id="navbarDropdown"
+                  id="navbarDropdown2"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -49,7 +71,7 @@ export default function Navbar() {
                 </a>
                 <ul
                   className="dropdown-menu dropdown-menu-light"
-                  aria-labelledby="navbarDropdown"
+                  aria-labelledby="navbarDropdown2"
                 >
                   <li>
                     <Link to="c/nieuw" className="dropdown-item">
@@ -84,15 +106,40 @@ export default function Navbar() {
                   Cursussen
                 </a>
               </li>
-              <li className="nav-item">
-                <a href="#cursus" className="nav-link disabled">
-                  Vragen
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="a"
+                  id="navbarDropdown4"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Winkel
                 </a>
-              </li>
-              <li className="nav-item">
-                <a href="#ervaringen" className="nav-link disabled">
-                  Reviews
-                </a>
+                <ul
+                  className="dropdown-menu dropdown-menu-light"
+                  aria-labelledby="navbarDropdown4"
+                >
+                  <li>
+                    <Link to="winkel/nieuw" className="dropdown-item">
+                      Nieuw!
+                    </Link>
+                  </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <Link to="winkel/toegepast" className="dropdown-item">
+                      Gebruiksgoed
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="winkel/autonoom" className="dropdown-item">
+                      Beelden
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-link disabled">

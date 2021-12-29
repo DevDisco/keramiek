@@ -14,7 +14,7 @@ export default function HomeAgenda() {
 
   return (
     <section id="{props.category}" className="bg-altlight mt-3">
-      <div className="container-lg  py-3">
+      <div className="container-lg py-3">
         <HomeCardsHeader category="agenda" page="home" />
         <HomeAgendaItems agenda={agendaData} />
       </div>

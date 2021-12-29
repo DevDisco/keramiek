@@ -4,14 +4,7 @@ import HomeCardsItems from "./HomeCardsItems";
 import HomeCardsFooter from "./HomeCardsFooter";
 import "./HomeCards.css";
 
-//api url
-//https://localhost/api/apps/marsha/public/index.php?t=werk
-
 export default function HomeCards(props) {
-  //get random 3-4 entries of the right category
-  //and let them fload downward
-  //super?
-
   const { category, page } = props;
 
   return (
